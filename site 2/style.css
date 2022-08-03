@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', arial, sans-serif;
+}
+
+/*==========TOPO==========*/
+.popup,
+.footer {
+    height: 60px;
+    background: #181818;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*==========IMAGEM 1==========*/
+
+.imagem1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 378px;
+}
+
+.imagem1 img {
+    position: absolute;
+    max-width: 100%;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.imagem1 div {
+    padding: 0px 90px;
+    color: #fff;
+}
+
+.imagem1 div h2 {
+    line-height: 2.5;
+}
+
+/*==========TEXTO 2 E CARDS==========*/
+.text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 90px;
+}
+
+.card {
+    width: 290px;    
+    background: #EBE9EA;
+    width: 290px;
+    height: 292px;
+    margin: 0px 5.5px 30px 5.5px;
+}
+
+/*==========FOOTER==========*/
+.footer {
+    margin: 100px 0px 0px;
+}
